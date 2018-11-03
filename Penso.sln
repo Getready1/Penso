@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penso.Web", "Penso.Web\Penso.Web.csproj", "{28BCCD42-FDB0-45B9-91DC-672F6DD4BE0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penso.Service", "Penso.Service\Penso.Service.csproj", "{BC1C9B2E-98F0-4F52-8597-F577ADE248DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penso.Persistance", "Penso.Persistance\Penso.Persistance.csproj", "{3EBE5C45-AE3D-43BC-BBC2-93B5C231200D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penso.Domain", "Penso.Domain\Penso.Domain.csproj", "{563417FB-81ED-468E-86FA-E58B572DF6C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penso.Common", "Penso.Common\Penso.Common.csproj", "{BB073463-F833-457A-AE01-FB471D0FCA18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Penso.Interfaces", "Penso.Interfaces\Penso.Interfaces.csproj", "{0298487B-336A-4AAA-B37F-DCBCBA73C735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28BCCD42-FDB0-45B9-91DC-672F6DD4BE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BCCD42-FDB0-45B9-91DC-672F6DD4BE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BCCD42-FDB0-45B9-91DC-672F6DD4BE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BCCD42-FDB0-45B9-91DC-672F6DD4BE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1C9B2E-98F0-4F52-8597-F577ADE248DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1C9B2E-98F0-4F52-8597-F577ADE248DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1C9B2E-98F0-4F52-8597-F577ADE248DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1C9B2E-98F0-4F52-8597-F577ADE248DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBE5C45-AE3D-43BC-BBC2-93B5C231200D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBE5C45-AE3D-43BC-BBC2-93B5C231200D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBE5C45-AE3D-43BC-BBC2-93B5C231200D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBE5C45-AE3D-43BC-BBC2-93B5C231200D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563417FB-81ED-468E-86FA-E58B572DF6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563417FB-81ED-468E-86FA-E58B572DF6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563417FB-81ED-468E-86FA-E58B572DF6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563417FB-81ED-468E-86FA-E58B572DF6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB073463-F833-457A-AE01-FB471D0FCA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB073463-F833-457A-AE01-FB471D0FCA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB073463-F833-457A-AE01-FB471D0FCA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB073463-F833-457A-AE01-FB471D0FCA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0298487B-336A-4AAA-B37F-DCBCBA73C735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0298487B-336A-4AAA-B37F-DCBCBA73C735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0298487B-336A-4AAA-B37F-DCBCBA73C735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0298487B-336A-4AAA-B37F-DCBCBA73C735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
