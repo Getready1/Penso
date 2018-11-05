@@ -1,4 +1,6 @@
-﻿using Penso.Interfaces.Management;
+﻿using Penso.Common.Mapper;
+using Penso.Domain.ViewModels;
+using Penso.Interfaces.Management;
 using Penso.Service.ServiceInterfaces;
 using System;
 using System.Collections.Generic;
@@ -20,8 +22,9 @@ namespace Penso.Web.Controllers
         // GET: Home
         public async  Task<ActionResult> Index()
         {
-			var users = await userManagement.ListAll();
-            return View();
+			var domainUsers = await userManagement.ListAll();
+			var users = ModelMapper.Map<UserVM>(domainUsers);
+            return View(users);
         }
     }
 }

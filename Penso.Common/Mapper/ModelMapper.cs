@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Penso.Domain.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace Penso.Common.Mapper
 			mapperConfig = new MapperConfiguration(cfg =>
 			{
 				cfg.CreateMap<Persistance.Models.User, Domain.User>().ReverseMap();
+				cfg.CreateMap<UserVM, Domain.User>().ReverseMap();
 			});
 
 			mapper = mapperConfig.CreateMapper();

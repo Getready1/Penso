@@ -125,8 +125,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\site.css" />
     <Content Include="Global.asax" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\jquery-3.3.1.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +151,10 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Partial\UserTable.cshtml" />
+    <Content Include="Views\Shared\Partial\LayoutNavBar.cshtml" />
+    <Content Include="Views\Shared\Partial\ViewPage1.cshtml" />
+    <Content Include="Views\Shared\Partial\AccountPanel.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -159,10 +166,13 @@
     <Folder Include="App_Data\" />
     <Folder Include="fonts\" />
     <Folder Include="Models\" />
-    <Folder Include="scripts\" />
     <Folder Include="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Penso.Common\Penso.Common.csproj">
+      <Project>{BB073463-F833-457A-AE01-FB471D0FCA18}</Project>
+      <Name>Penso.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Penso.Domain\Penso.Domain.csproj">
       <Project>{563417fb-81ed-468e-86fa-e58b572df6c2}</Project>
       <Name>Penso.Domain</Name>

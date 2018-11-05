@@ -1,0 +1,22 @@
+﻿@model List<Penso.Domain.ViewModels.UserVM>
+@{
+    Layout = null;
+}
+
+<table class="table">
+	<tr>
+		<td>First Name</td>
+		<td>Middle Name</td>
+		<td>Last Name</td>
+		<td>Email</td>
+	</tr>
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>@item.FirstName</td>
+			<td>@item.MiddleName</td>
+			<td>@item.LastName</td>
+			<td>@item.Email</td>
+		</tr>
+	}
+</table>
